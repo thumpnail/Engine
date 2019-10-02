@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Game\\BaseGame.csproj": {}
+    "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Game\\BaseGame.csproj": {}
   },
   "projects": {
-    "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine\\Engine.csproj": {
+    "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Engine\\Engine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine\\Engine.csproj",
+        "projectUniqueName": "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Engine\\Engine.csproj",
         "projectName": "Engine",
-        "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine\\Engine.csproj",
+        "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Engine\\Engine.csproj",
         "packagesPath": "C:\\Users\\fried\\.nuget\\packages\\",
-        "outputPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine\\obj\\",
+        "outputPath": "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Engine\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "X:\\Microsoft\\Xamarin\\NuGet\\",
@@ -61,14 +61,14 @@
         }
       }
     },
-    "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Game\\BaseGame.csproj": {
+    "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Game\\BaseGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Game\\BaseGame.csproj",
+        "projectUniqueName": "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Game\\BaseGame.csproj",
         "projectName": "BaseGame",
-        "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Game\\BaseGame.csproj",
+        "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Game\\BaseGame.csproj",
         "packagesPath": "C:\\Users\\fried\\.nuget\\packages\\",
-        "outputPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Game\\obj\\",
+        "outputPath": "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Game\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "X:\\Microsoft\\Xamarin\\NuGet\\",
@@ -89,8 +89,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine\\Engine.csproj": {
-                "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine\\Engine.csproj"
+              "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Engine\\Engine.csproj": {
+                "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Engine\\Engine.csproj"
               }
             }
           }
