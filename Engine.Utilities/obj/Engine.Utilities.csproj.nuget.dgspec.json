@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Engine.Utilities\\Engine.Utilities.csproj": {}
+    "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities\\Engine.Utilities.csproj": {}
   },
   "projects": {
-    "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Engine.Utilities\\Engine.Utilities.csproj": {
+    "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities\\Engine.Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Engine.Utilities\\Engine.Utilities.csproj",
+        "projectUniqueName": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities\\Engine.Utilities.csproj",
         "projectName": "Engine.Utilities",
-        "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Engine.Utilities\\Engine.Utilities.csproj",
+        "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities\\Engine.Utilities.csproj",
         "packagesPath": "C:\\Users\\fried\\.nuget\\packages\\",
-        "outputPath": "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Engine.Utilities\\obj\\",
+        "outputPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "X:\\Microsoft\\Xamarin\\NuGet\\",

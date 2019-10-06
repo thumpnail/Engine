@@ -12,37 +12,43 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		CheatSheet.txt = CheatSheet.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine.Game", "Engine.Game\Engine.Game.csproj", "{AACAA212-7F4D-45EB-97F5-7CB6FB04A6DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Engine.Game", "Engine.Game\Engine.Game.csproj", "{AACAA212-7F4D-45EB-97F5-7CB6FB04A6DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine.Game.Commands", "Engine.Game.Commands\Engine.Game.Commands.csproj", "{CA290410-9E3D-4BE0-BAE8-4BEEE3C1A7C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Engine.Game.Commands", "Engine.Game.Commands\Engine.Game.Commands.csproj", "{CA290410-9E3D-4BE0-BAE8-4BEEE3C1A7C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine.Game.GameConsole", "Engine.Game.GameConsole\Engine.Game.GameConsole.csproj", "{C0B3C683-3154-462C-8A09-F5432D3AAD5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Engine.Game.GameConsole", "Engine.Game.GameConsole\Engine.Game.GameConsole.csproj", "{C0B3C683-3154-462C-8A09-F5432D3AAD5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine.GamePlay", "Engine.GamePlay\Engine.GamePlay.csproj", "{005BC53D-0D5B-4777-AF33-508D728AFC56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Engine.GamePlay", "Engine.GamePlay\Engine.GamePlay.csproj", "{005BC53D-0D5B-4777-AF33-508D728AFC56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine.Entities", "Engine.Entities\Engine.Entities.csproj", "{947E1953-731A-45DD-9173-697266E7BD58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Engine.Entities", "Engine.Entities\Engine.Entities.csproj", "{947E1953-731A-45DD-9173-697266E7BD58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine.Loot", "Engine.Loot\Engine.Loot.csproj", "{14046235-05E0-48BF-8739-1EFD63D9370C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Engine.Loot", "Engine.Loot\Engine.Loot.csproj", "{14046235-05E0-48BF-8739-1EFD63D9370C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine.Map", "Engine.Map\Engine.Map.csproj", "{D53F5A33-D274-4C0D-BE82-BAAAB31318B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Engine.Map", "Engine.Map\Engine.Map.csproj", "{D53F5A33-D274-4C0D-BE82-BAAAB31318B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine.Room", "Engine.Room\Engine.Room.csproj", "{9634C73F-27A2-4074-98BB-FC73B44B0514}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Engine.Room", "Engine.Room\Engine.Room.csproj", "{9634C73F-27A2-4074-98BB-FC73B44B0514}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine.Story", "Engine.Story\Engine.Story.csproj", "{8EE7F4E7-A899-4759-B65A-E40894BB834E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Engine.Story", "Engine.Story\Engine.Story.csproj", "{8EE7F4E7-A899-4759-B65A-E40894BB834E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine.Economic", "Engine.Economic\Engine.Economic.csproj", "{468FC62A-FA3B-4D8F-8DB8-65AA4D0F5737}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Engine.Economic", "Engine.Economic\Engine.Economic.csproj", "{468FC62A-FA3B-4D8F-8DB8-65AA4D0F5737}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine.Inventory", "Engine.Inventory\Engine.Inventory.csproj", "{0E3B4A2A-A1D0-41C1-86BF-0E6A69071C08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Engine.Inventory", "Engine.Inventory\Engine.Inventory.csproj", "{0E3B4A2A-A1D0-41C1-86BF-0E6A69071C08}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine.Utilities", "Engine.Utilities\Engine.Utilities.csproj", "{2C3A6C91-7D10-4532-9FC6-C208FAEEEB32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Engine.Utilities", "Engine.Utilities\Engine.Utilities.csproj", "{2C3A6C91-7D10-4532-9FC6-C208FAEEEB32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine.Utilities.File", "Engine.Utilities.File\Engine.Utilities.File.csproj", "{234A3DB2-1A30-45FE-AC02-8A31A09EB635}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Engine.Utilities.File", "Engine.Utilities.File\Engine.Utilities.File.csproj", "{234A3DB2-1A30-45FE-AC02-8A31A09EB635}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine.Utilities.Threading", "Engine.Utilities.Threading\Engine.Utilities.Threading.csproj", "{73024741-E2CE-4263-88CB-4AEE2D499A82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Engine.Utilities.Threading", "Engine.Utilities.Threading\Engine.Utilities.Threading.csproj", "{73024741-E2CE-4263-88CB-4AEE2D499A82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine.Utilities.Additionals", "Engine.Utilities.Additionals\Engine.Utilities.Additionals.csproj", "{AD18734E-92A7-4E34-832B-554497178904}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Engine.Utilities.Additionals", "Engine.Utilities.Additionals\Engine.Utilities.Additionals.csproj", "{AD18734E-92A7-4E34-832B-554497178904}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine.Utilities.Crypto", "Engine.Utilities.Crypto\Engine.Utilities.Crypto.csproj", "{2E6394B7-8478-4003-9057-C333E3C03131}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Engine.Utilities.Crypto", "Engine.Utilities.Crypto\Engine.Utilities.Crypto.csproj", "{2E6394B7-8478-4003-9057-C333E3C03131}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine.Utilities.Logger", "Engine.Utilities.Logger\Engine.Utilities.Logger.csproj", "{E45E815C-A0B0-4A65-94B5-82A2FD061B67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine.Utilities.Wait", "Engine.Utilities.Wait\Engine.Utilities.Wait.csproj", "{940DA4E4-A27F-4B8B-8EA8-F28540A1A1FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine.Utilities.Graphical", "Engine.Utilities.Graphical\Engine.Utilities.Graphical.csproj", "{DC990ADC-8C1D-4F7D-AD5E-203F26655C2A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -122,6 +128,18 @@ Global
 		{2E6394B7-8478-4003-9057-C333E3C03131}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E6394B7-8478-4003-9057-C333E3C03131}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E6394B7-8478-4003-9057-C333E3C03131}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E45E815C-A0B0-4A65-94B5-82A2FD061B67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E45E815C-A0B0-4A65-94B5-82A2FD061B67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E45E815C-A0B0-4A65-94B5-82A2FD061B67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E45E815C-A0B0-4A65-94B5-82A2FD061B67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{940DA4E4-A27F-4B8B-8EA8-F28540A1A1FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{940DA4E4-A27F-4B8B-8EA8-F28540A1A1FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{940DA4E4-A27F-4B8B-8EA8-F28540A1A1FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{940DA4E4-A27F-4B8B-8EA8-F28540A1A1FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC990ADC-8C1D-4F7D-AD5E-203F26655C2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC990ADC-8C1D-4F7D-AD5E-203F26655C2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC990ADC-8C1D-4F7D-AD5E-203F26655C2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC990ADC-8C1D-4F7D-AD5E-203F26655C2A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

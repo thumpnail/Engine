@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Engine.Story\\Engine.Story.csproj": {}
+    "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Story\\Engine.Story.csproj": {}
   },
   "projects": {
-    "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Engine.Story\\Engine.Story.csproj": {
+    "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Story\\Engine.Story.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Engine.Story\\Engine.Story.csproj",
+        "projectUniqueName": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Story\\Engine.Story.csproj",
         "projectName": "Engine.Story",
-        "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Engine.Story\\Engine.Story.csproj",
+        "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Story\\Engine.Story.csproj",
         "packagesPath": "C:\\Users\\fried\\.nuget\\packages\\",
-        "outputPath": "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Engine.Story\\obj\\",
+        "outputPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Story\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "X:\\Microsoft\\Xamarin\\NuGet\\",

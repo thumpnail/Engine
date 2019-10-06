@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Game\\BaseGame.csproj": {}
+    "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Game\\BaseGame.csproj": {}
   },
   "projects": {
-    "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Engine\\Engine.csproj": {
+    "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Economic\\Engine.Economic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Engine\\Engine.csproj",
-        "projectName": "Engine",
-        "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Engine\\Engine.csproj",
+        "projectUniqueName": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Economic\\Engine.Economic.csproj",
+        "projectName": "Engine.Economic",
+        "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Economic\\Engine.Economic.csproj",
         "packagesPath": "C:\\Users\\fried\\.nuget\\packages\\",
-        "outputPath": "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Engine\\obj\\",
+        "outputPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Economic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "X:\\Microsoft\\Xamarin\\NuGet\\",
@@ -61,14 +61,926 @@
         }
       }
     },
-    "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Game\\BaseGame.csproj": {
+    "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Entities\\Engine.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Game\\BaseGame.csproj",
-        "projectName": "BaseGame",
-        "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Game\\BaseGame.csproj",
+        "projectUniqueName": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Entities\\Engine.Entities.csproj",
+        "projectName": "Engine.Entities",
+        "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Entities\\Engine.Entities.csproj",
         "packagesPath": "C:\\Users\\fried\\.nuget\\packages\\",
-        "outputPath": "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Game\\obj\\",
+        "outputPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "X:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fried\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Game.Commands\\Engine.Game.Commands.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Game.Commands\\Engine.Game.Commands.csproj",
+        "projectName": "Engine.Game.Commands",
+        "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Game.Commands\\Engine.Game.Commands.csproj",
+        "packagesPath": "C:\\Users\\fried\\.nuget\\packages\\",
+        "outputPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Game.Commands\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "X:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fried\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Game.GameConsole\\Engine.Game.GameConsole.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Game.GameConsole\\Engine.Game.GameConsole.csproj",
+        "projectName": "Engine.Game.GameConsole",
+        "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Game.GameConsole\\Engine.Game.GameConsole.csproj",
+        "packagesPath": "C:\\Users\\fried\\.nuget\\packages\\",
+        "outputPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Game.GameConsole\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "X:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fried\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.GamePlay\\Engine.GamePlay.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.GamePlay\\Engine.GamePlay.csproj",
+        "projectName": "Engine.GamePlay",
+        "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.GamePlay\\Engine.GamePlay.csproj",
+        "packagesPath": "C:\\Users\\fried\\.nuget\\packages\\",
+        "outputPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.GamePlay\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "X:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fried\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Game\\Engine.Game.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Game\\Engine.Game.csproj",
+        "projectName": "Engine.Game",
+        "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Game\\Engine.Game.csproj",
+        "packagesPath": "C:\\Users\\fried\\.nuget\\packages\\",
+        "outputPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Game\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "X:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fried\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Inventory\\Engine.Inventory.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Inventory\\Engine.Inventory.csproj",
+        "projectName": "Engine.Inventory",
+        "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Inventory\\Engine.Inventory.csproj",
+        "packagesPath": "C:\\Users\\fried\\.nuget\\packages\\",
+        "outputPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Inventory\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "X:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fried\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Loot\\Engine.Loot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Loot\\Engine.Loot.csproj",
+        "projectName": "Engine.Loot",
+        "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Loot\\Engine.Loot.csproj",
+        "packagesPath": "C:\\Users\\fried\\.nuget\\packages\\",
+        "outputPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Loot\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "X:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fried\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Map\\Engine.Map.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Map\\Engine.Map.csproj",
+        "projectName": "Engine.Map",
+        "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Map\\Engine.Map.csproj",
+        "packagesPath": "C:\\Users\\fried\\.nuget\\packages\\",
+        "outputPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Map\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "X:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fried\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Room\\Engine.Room.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Room\\Engine.Room.csproj",
+        "projectName": "Engine.Room",
+        "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Room\\Engine.Room.csproj",
+        "packagesPath": "C:\\Users\\fried\\.nuget\\packages\\",
+        "outputPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Room\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "X:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fried\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Story\\Engine.Story.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Story\\Engine.Story.csproj",
+        "projectName": "Engine.Story",
+        "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Story\\Engine.Story.csproj",
+        "packagesPath": "C:\\Users\\fried\\.nuget\\packages\\",
+        "outputPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Story\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "X:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fried\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities.Additionals\\Engine.Utilities.Additionals.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities.Additionals\\Engine.Utilities.Additionals.csproj",
+        "projectName": "Engine.Utilities.Additionals",
+        "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities.Additionals\\Engine.Utilities.Additionals.csproj",
+        "packagesPath": "C:\\Users\\fried\\.nuget\\packages\\",
+        "outputPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities.Additionals\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "X:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fried\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities.Crypto\\Engine.Utilities.Crypto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities.Crypto\\Engine.Utilities.Crypto.csproj",
+        "projectName": "Engine.Utilities.Crypto",
+        "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities.Crypto\\Engine.Utilities.Crypto.csproj",
+        "packagesPath": "C:\\Users\\fried\\.nuget\\packages\\",
+        "outputPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities.Crypto\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "X:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fried\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities.File\\Engine.Utilities.File.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities.File\\Engine.Utilities.File.csproj",
+        "projectName": "Engine.Utilities.File",
+        "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities.File\\Engine.Utilities.File.csproj",
+        "packagesPath": "C:\\Users\\fried\\.nuget\\packages\\",
+        "outputPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities.File\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "X:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fried\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities.Threading\\Engine.Utilities.Threading.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities.Threading\\Engine.Utilities.Threading.csproj",
+        "projectName": "Engine.Utilities.Threading",
+        "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities.Threading\\Engine.Utilities.Threading.csproj",
+        "packagesPath": "C:\\Users\\fried\\.nuget\\packages\\",
+        "outputPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities.Threading\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "X:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fried\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities\\Engine.Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities\\Engine.Utilities.csproj",
+        "projectName": "Engine.Utilities",
+        "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities\\Engine.Utilities.csproj",
+        "packagesPath": "C:\\Users\\fried\\.nuget\\packages\\",
+        "outputPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "X:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fried\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine\\Engine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine\\Engine.csproj",
+        "projectName": "Engine",
+        "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine\\Engine.csproj",
+        "packagesPath": "C:\\Users\\fried\\.nuget\\packages\\",
+        "outputPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "X:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\fried\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Game\\BaseGame.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Game\\BaseGame.csproj",
+        "projectName": "BaseGame",
+        "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Game\\BaseGame.csproj",
+        "packagesPath": "C:\\Users\\fried\\.nuget\\packages\\",
+        "outputPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Game\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "X:\\Microsoft\\Xamarin\\NuGet\\",
@@ -89,8 +1001,56 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Engine\\Engine.csproj": {
-                "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Engine\\Engine.csproj"
+              "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Economic\\Engine.Economic.csproj": {
+                "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Economic\\Engine.Economic.csproj"
+              },
+              "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Entities\\Engine.Entities.csproj": {
+                "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Entities\\Engine.Entities.csproj"
+              },
+              "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Game.Commands\\Engine.Game.Commands.csproj": {
+                "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Game.Commands\\Engine.Game.Commands.csproj"
+              },
+              "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Game.GameConsole\\Engine.Game.GameConsole.csproj": {
+                "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Game.GameConsole\\Engine.Game.GameConsole.csproj"
+              },
+              "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.GamePlay\\Engine.GamePlay.csproj": {
+                "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.GamePlay\\Engine.GamePlay.csproj"
+              },
+              "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Game\\Engine.Game.csproj": {
+                "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Game\\Engine.Game.csproj"
+              },
+              "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Inventory\\Engine.Inventory.csproj": {
+                "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Inventory\\Engine.Inventory.csproj"
+              },
+              "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Loot\\Engine.Loot.csproj": {
+                "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Loot\\Engine.Loot.csproj"
+              },
+              "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Map\\Engine.Map.csproj": {
+                "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Map\\Engine.Map.csproj"
+              },
+              "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Room\\Engine.Room.csproj": {
+                "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Room\\Engine.Room.csproj"
+              },
+              "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Story\\Engine.Story.csproj": {
+                "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Story\\Engine.Story.csproj"
+              },
+              "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities.Additionals\\Engine.Utilities.Additionals.csproj": {
+                "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities.Additionals\\Engine.Utilities.Additionals.csproj"
+              },
+              "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities.Crypto\\Engine.Utilities.Crypto.csproj": {
+                "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities.Crypto\\Engine.Utilities.Crypto.csproj"
+              },
+              "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities.File\\Engine.Utilities.File.csproj": {
+                "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities.File\\Engine.Utilities.File.csproj"
+              },
+              "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities.Threading\\Engine.Utilities.Threading.csproj": {
+                "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities.Threading\\Engine.Utilities.Threading.csproj"
+              },
+              "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities\\Engine.Utilities.csproj": {
+                "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities\\Engine.Utilities.csproj"
+              },
+              "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine\\Engine.csproj": {
+                "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine\\Engine.csproj"
               }
             }
           }

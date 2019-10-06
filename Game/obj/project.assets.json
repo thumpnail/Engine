@@ -11,6 +11,166 @@
         "runtime": {
           "bin/placeholder/Engine.dll": {}
         }
+      },
+      "Engine.Economic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/Engine.Economic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Engine.Economic.dll": {}
+        }
+      },
+      "Engine.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/Engine.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Engine.Entities.dll": {}
+        }
+      },
+      "Engine.Game/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/Engine.Game.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Engine.Game.dll": {}
+        }
+      },
+      "Engine.Game.Commands/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/Engine.Game.Commands.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Engine.Game.Commands.dll": {}
+        }
+      },
+      "Engine.Game.GameConsole/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/Engine.Game.GameConsole.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Engine.Game.GameConsole.dll": {}
+        }
+      },
+      "Engine.GamePlay/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/Engine.GamePlay.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Engine.GamePlay.dll": {}
+        }
+      },
+      "Engine.Inventory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/Engine.Inventory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Engine.Inventory.dll": {}
+        }
+      },
+      "Engine.Loot/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/Engine.Loot.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Engine.Loot.dll": {}
+        }
+      },
+      "Engine.Map/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/Engine.Map.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Engine.Map.dll": {}
+        }
+      },
+      "Engine.Room/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/Engine.Room.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Engine.Room.dll": {}
+        }
+      },
+      "Engine.Story/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/Engine.Story.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Engine.Story.dll": {}
+        }
+      },
+      "Engine.Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/Engine.Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Engine.Utilities.dll": {}
+        }
+      },
+      "Engine.Utilities.Additionals/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/Engine.Utilities.Additionals.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Engine.Utilities.Additionals.dll": {}
+        }
+      },
+      "Engine.Utilities.Crypto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/Engine.Utilities.Crypto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Engine.Utilities.Crypto.dll": {}
+        }
+      },
+      "Engine.Utilities.File/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/Engine.Utilities.File.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Engine.Utilities.File.dll": {}
+        }
+      },
+      "Engine.Utilities.Threading/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/Engine.Utilities.Threading.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Engine.Utilities.Threading.dll": {}
+        }
       }
     }
   },
@@ -19,11 +179,107 @@
       "type": "project",
       "path": "../Engine/Engine.csproj",
       "msbuildProject": "../Engine/Engine.csproj"
+    },
+    "Engine.Economic/1.0.0": {
+      "type": "project",
+      "path": "../Engine.Economic/Engine.Economic.csproj",
+      "msbuildProject": "../Engine.Economic/Engine.Economic.csproj"
+    },
+    "Engine.Entities/1.0.0": {
+      "type": "project",
+      "path": "../Engine.Entities/Engine.Entities.csproj",
+      "msbuildProject": "../Engine.Entities/Engine.Entities.csproj"
+    },
+    "Engine.Game/1.0.0": {
+      "type": "project",
+      "path": "../Engine.Game/Engine.Game.csproj",
+      "msbuildProject": "../Engine.Game/Engine.Game.csproj"
+    },
+    "Engine.Game.Commands/1.0.0": {
+      "type": "project",
+      "path": "../Engine.Game.Commands/Engine.Game.Commands.csproj",
+      "msbuildProject": "../Engine.Game.Commands/Engine.Game.Commands.csproj"
+    },
+    "Engine.Game.GameConsole/1.0.0": {
+      "type": "project",
+      "path": "../Engine.Game.GameConsole/Engine.Game.GameConsole.csproj",
+      "msbuildProject": "../Engine.Game.GameConsole/Engine.Game.GameConsole.csproj"
+    },
+    "Engine.GamePlay/1.0.0": {
+      "type": "project",
+      "path": "../Engine.GamePlay/Engine.GamePlay.csproj",
+      "msbuildProject": "../Engine.GamePlay/Engine.GamePlay.csproj"
+    },
+    "Engine.Inventory/1.0.0": {
+      "type": "project",
+      "path": "../Engine.Inventory/Engine.Inventory.csproj",
+      "msbuildProject": "../Engine.Inventory/Engine.Inventory.csproj"
+    },
+    "Engine.Loot/1.0.0": {
+      "type": "project",
+      "path": "../Engine.Loot/Engine.Loot.csproj",
+      "msbuildProject": "../Engine.Loot/Engine.Loot.csproj"
+    },
+    "Engine.Map/1.0.0": {
+      "type": "project",
+      "path": "../Engine.Map/Engine.Map.csproj",
+      "msbuildProject": "../Engine.Map/Engine.Map.csproj"
+    },
+    "Engine.Room/1.0.0": {
+      "type": "project",
+      "path": "../Engine.Room/Engine.Room.csproj",
+      "msbuildProject": "../Engine.Room/Engine.Room.csproj"
+    },
+    "Engine.Story/1.0.0": {
+      "type": "project",
+      "path": "../Engine.Story/Engine.Story.csproj",
+      "msbuildProject": "../Engine.Story/Engine.Story.csproj"
+    },
+    "Engine.Utilities/1.0.0": {
+      "type": "project",
+      "path": "../Engine.Utilities/Engine.Utilities.csproj",
+      "msbuildProject": "../Engine.Utilities/Engine.Utilities.csproj"
+    },
+    "Engine.Utilities.Additionals/1.0.0": {
+      "type": "project",
+      "path": "../Engine.Utilities.Additionals/Engine.Utilities.Additionals.csproj",
+      "msbuildProject": "../Engine.Utilities.Additionals/Engine.Utilities.Additionals.csproj"
+    },
+    "Engine.Utilities.Crypto/1.0.0": {
+      "type": "project",
+      "path": "../Engine.Utilities.Crypto/Engine.Utilities.Crypto.csproj",
+      "msbuildProject": "../Engine.Utilities.Crypto/Engine.Utilities.Crypto.csproj"
+    },
+    "Engine.Utilities.File/1.0.0": {
+      "type": "project",
+      "path": "../Engine.Utilities.File/Engine.Utilities.File.csproj",
+      "msbuildProject": "../Engine.Utilities.File/Engine.Utilities.File.csproj"
+    },
+    "Engine.Utilities.Threading/1.0.0": {
+      "type": "project",
+      "path": "../Engine.Utilities.Threading/Engine.Utilities.Threading.csproj",
+      "msbuildProject": "../Engine.Utilities.Threading/Engine.Utilities.Threading.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
-      "Engine >= 1.0.0"
+      "Engine >= 1.0.0",
+      "Engine.Economic >= 1.0.0",
+      "Engine.Entities >= 1.0.0",
+      "Engine.Game >= 1.0.0",
+      "Engine.Game.Commands >= 1.0.0",
+      "Engine.Game.GameConsole >= 1.0.0",
+      "Engine.GamePlay >= 1.0.0",
+      "Engine.Inventory >= 1.0.0",
+      "Engine.Loot >= 1.0.0",
+      "Engine.Map >= 1.0.0",
+      "Engine.Room >= 1.0.0",
+      "Engine.Story >= 1.0.0",
+      "Engine.Utilities >= 1.0.0",
+      "Engine.Utilities.Additionals >= 1.0.0",
+      "Engine.Utilities.Crypto >= 1.0.0",
+      "Engine.Utilities.File >= 1.0.0",
+      "Engine.Utilities.Threading >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -34,11 +290,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Game\\BaseGame.csproj",
+      "projectUniqueName": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Game\\BaseGame.csproj",
       "projectName": "BaseGame",
-      "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Game\\BaseGame.csproj",
+      "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Game\\BaseGame.csproj",
       "packagesPath": "C:\\Users\\fried\\.nuget\\packages\\",
-      "outputPath": "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Game\\obj\\",
+      "outputPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Game\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "X:\\Microsoft\\Xamarin\\NuGet\\",
@@ -59,8 +315,56 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Engine\\Engine.csproj": {
-              "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Engine\\Engine.csproj"
+            "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Economic\\Engine.Economic.csproj": {
+              "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Economic\\Engine.Economic.csproj"
+            },
+            "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Entities\\Engine.Entities.csproj": {
+              "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Entities\\Engine.Entities.csproj"
+            },
+            "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Game.Commands\\Engine.Game.Commands.csproj": {
+              "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Game.Commands\\Engine.Game.Commands.csproj"
+            },
+            "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Game.GameConsole\\Engine.Game.GameConsole.csproj": {
+              "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Game.GameConsole\\Engine.Game.GameConsole.csproj"
+            },
+            "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.GamePlay\\Engine.GamePlay.csproj": {
+              "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.GamePlay\\Engine.GamePlay.csproj"
+            },
+            "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Game\\Engine.Game.csproj": {
+              "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Game\\Engine.Game.csproj"
+            },
+            "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Inventory\\Engine.Inventory.csproj": {
+              "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Inventory\\Engine.Inventory.csproj"
+            },
+            "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Loot\\Engine.Loot.csproj": {
+              "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Loot\\Engine.Loot.csproj"
+            },
+            "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Map\\Engine.Map.csproj": {
+              "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Map\\Engine.Map.csproj"
+            },
+            "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Room\\Engine.Room.csproj": {
+              "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Room\\Engine.Room.csproj"
+            },
+            "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Story\\Engine.Story.csproj": {
+              "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Story\\Engine.Story.csproj"
+            },
+            "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities.Additionals\\Engine.Utilities.Additionals.csproj": {
+              "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities.Additionals\\Engine.Utilities.Additionals.csproj"
+            },
+            "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities.Crypto\\Engine.Utilities.Crypto.csproj": {
+              "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities.Crypto\\Engine.Utilities.Crypto.csproj"
+            },
+            "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities.File\\Engine.Utilities.File.csproj": {
+              "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities.File\\Engine.Utilities.File.csproj"
+            },
+            "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities.Threading\\Engine.Utilities.Threading.csproj": {
+              "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities.Threading\\Engine.Utilities.Threading.csproj"
+            },
+            "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities\\Engine.Utilities.csproj": {
+              "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Utilities\\Engine.Utilities.csproj"
+            },
+            "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine\\Engine.csproj": {
+              "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine\\Engine.csproj"
             }
           }
         }

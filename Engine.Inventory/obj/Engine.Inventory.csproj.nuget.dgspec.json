@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Engine.Inventory\\Engine.Inventory.csproj": {}
+    "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Inventory\\Engine.Inventory.csproj": {}
   },
   "projects": {
-    "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Engine.Inventory\\Engine.Inventory.csproj": {
+    "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Inventory\\Engine.Inventory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Engine.Inventory\\Engine.Inventory.csproj",
+        "projectUniqueName": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Inventory\\Engine.Inventory.csproj",
         "projectName": "Engine.Inventory",
-        "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Engine.Inventory\\Engine.Inventory.csproj",
+        "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Inventory\\Engine.Inventory.csproj",
         "packagesPath": "C:\\Users\\fried\\.nuget\\packages\\",
-        "outputPath": "D:\\Moritz2000\\Documents\\GitHub\\Engine\\Engine.Inventory\\obj\\",
+        "outputPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.Inventory\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "X:\\Microsoft\\Xamarin\\NuGet\\",
