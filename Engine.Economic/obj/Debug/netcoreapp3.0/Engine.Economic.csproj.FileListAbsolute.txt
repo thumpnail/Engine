@@ -1,0 +1,8 @@
+/home/moritz/Dokumente/repos/Engine/Engine.Economic/bin/Debug/netcoreapp3.0/Engine.Economic.deps.json
+/home/moritz/Dokumente/repos/Engine/Engine.Economic/bin/Debug/netcoreapp3.0/Engine.Economic.dll
+/home/moritz/Dokumente/repos/Engine/Engine.Economic/bin/Debug/netcoreapp3.0/Engine.Economic.pdb
+/home/moritz/Dokumente/repos/Engine/Engine.Economic/obj/Debug/netcoreapp3.0/Engine.Economic.csprojAssemblyReference.cache
+/home/moritz/Dokumente/repos/Engine/Engine.Economic/obj/Debug/netcoreapp3.0/Engine.Economic.AssemblyInfoInputs.cache
+/home/moritz/Dokumente/repos/Engine/Engine.Economic/obj/Debug/netcoreapp3.0/Engine.Economic.AssemblyInfo.cs
+/home/moritz/Dokumente/repos/Engine/Engine.Economic/obj/Debug/netcoreapp3.0/Engine.Economic.dll
+/home/moritz/Dokumente/repos/Engine/Engine.Economic/obj/Debug/netcoreapp3.0/Engine.Economic.pdb

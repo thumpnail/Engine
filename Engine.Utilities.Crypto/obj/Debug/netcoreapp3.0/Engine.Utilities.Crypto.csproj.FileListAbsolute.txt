@@ -1,0 +1,8 @@
+/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Crypto/bin/Debug/netcoreapp3.0/Engine.Utilities.Crypto.deps.json
+/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Crypto/bin/Debug/netcoreapp3.0/Engine.Utilities.Crypto.dll
+/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Crypto/bin/Debug/netcoreapp3.0/Engine.Utilities.Crypto.pdb
+/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Crypto/obj/Debug/netcoreapp3.0/Engine.Utilities.Crypto.csprojAssemblyReference.cache
+/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Crypto/obj/Debug/netcoreapp3.0/Engine.Utilities.Crypto.AssemblyInfoInputs.cache
+/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Crypto/obj/Debug/netcoreapp3.0/Engine.Utilities.Crypto.AssemblyInfo.cs
+/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Crypto/obj/Debug/netcoreapp3.0/Engine.Utilities.Crypto.dll
+/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Crypto/obj/Debug/netcoreapp3.0/Engine.Utilities.Crypto.pdb

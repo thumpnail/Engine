@@ -1,0 +1,8 @@
+/home/moritz/Dokumente/repos/Engine/Engine.Utilities.File/bin/Debug/netcoreapp3.0/Engine.Utilities.File.deps.json
+/home/moritz/Dokumente/repos/Engine/Engine.Utilities.File/bin/Debug/netcoreapp3.0/Engine.Utilities.File.dll
+/home/moritz/Dokumente/repos/Engine/Engine.Utilities.File/bin/Debug/netcoreapp3.0/Engine.Utilities.File.pdb
+/home/moritz/Dokumente/repos/Engine/Engine.Utilities.File/obj/Debug/netcoreapp3.0/Engine.Utilities.File.csprojAssemblyReference.cache
+/home/moritz/Dokumente/repos/Engine/Engine.Utilities.File/obj/Debug/netcoreapp3.0/Engine.Utilities.File.AssemblyInfoInputs.cache
+/home/moritz/Dokumente/repos/Engine/Engine.Utilities.File/obj/Debug/netcoreapp3.0/Engine.Utilities.File.AssemblyInfo.cs
+/home/moritz/Dokumente/repos/Engine/Engine.Utilities.File/obj/Debug/netcoreapp3.0/Engine.Utilities.File.dll
+/home/moritz/Dokumente/repos/Engine/Engine.Utilities.File/obj/Debug/netcoreapp3.0/Engine.Utilities.File.pdb

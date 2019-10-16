@@ -1,0 +1,8 @@
+/home/moritz/Dokumente/repos/Engine/Engine.Game/bin/Debug/netcoreapp3.0/Engine.Game.deps.json
+/home/moritz/Dokumente/repos/Engine/Engine.Game/bin/Debug/netcoreapp3.0/Engine.Game.dll
+/home/moritz/Dokumente/repos/Engine/Engine.Game/bin/Debug/netcoreapp3.0/Engine.Game.pdb
+/home/moritz/Dokumente/repos/Engine/Engine.Game/obj/Debug/netcoreapp3.0/Engine.Game.csprojAssemblyReference.cache
+/home/moritz/Dokumente/repos/Engine/Engine.Game/obj/Debug/netcoreapp3.0/Engine.Game.AssemblyInfoInputs.cache
+/home/moritz/Dokumente/repos/Engine/Engine.Game/obj/Debug/netcoreapp3.0/Engine.Game.AssemblyInfo.cs
+/home/moritz/Dokumente/repos/Engine/Engine.Game/obj/Debug/netcoreapp3.0/Engine.Game.dll
+/home/moritz/Dokumente/repos/Engine/Engine.Game/obj/Debug/netcoreapp3.0/Engine.Game.pdb

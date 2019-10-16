@@ -1,32 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.GamePlay\\Engine.GamePlay.csproj": {}
+    "/home/moritz/Dokumente/repos/Engine/Engine.GamePlay/Engine.GamePlay.csproj": {}
   },
   "projects": {
-    "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.GamePlay\\Engine.GamePlay.csproj": {
+    "/home/moritz/Dokumente/repos/Engine/Engine.GamePlay/Engine.GamePlay.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.GamePlay\\Engine.GamePlay.csproj",
+        "projectUniqueName": "/home/moritz/Dokumente/repos/Engine/Engine.GamePlay/Engine.GamePlay.csproj",
         "projectName": "Engine.GamePlay",
-        "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.GamePlay\\Engine.GamePlay.csproj",
-        "packagesPath": "C:\\Users\\fried\\.nuget\\packages\\",
-        "outputPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine.GamePlay\\obj\\",
+        "projectPath": "/home/moritz/Dokumente/repos/Engine/Engine.GamePlay/Engine.GamePlay.csproj",
+        "packagesPath": "/home/moritz/.nuget/packages/",
+        "outputPath": "/home/moritz/Dokumente/repos/Engine/Engine.GamePlay/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "X:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\fried\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/home/moritz/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,6 +38,12 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }

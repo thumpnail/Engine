@@ -50,6 +50,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine.Utilities.Wait", "En
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine.Utilities.Graphical", "Engine.Utilities.Graphical\Engine.Utilities.Graphical.csproj", "{DC990ADC-8C1D-4F7D-AD5E-203F26655C2A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine.Chars", "Engine.Chars\Engine.Chars.csproj", "{FD46EE96-EF21-4208-8EB6-8CFC7C8CB246}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -140,6 +142,10 @@ Global
 		{DC990ADC-8C1D-4F7D-AD5E-203F26655C2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC990ADC-8C1D-4F7D-AD5E-203F26655C2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC990ADC-8C1D-4F7D-AD5E-203F26655C2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD46EE96-EF21-4208-8EB6-8CFC7C8CB246}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD46EE96-EF21-4208-8EB6-8CFC7C8CB246}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD46EE96-EF21-4208-8EB6-8CFC7C8CB246}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD46EE96-EF21-4208-8EB6-8CFC7C8CB246}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

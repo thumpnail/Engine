@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Engine.Utilities.Additionals/1.0.0": {
+        "runtime": {
+          "Engine.Utilities.Additionals.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Engine.Utilities.Additionals/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

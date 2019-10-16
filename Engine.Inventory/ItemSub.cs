@@ -3,19 +3,19 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace Engine.Inventory {
-    class Effect {
+    public class Effect {
 
     }
-    class Buff {
+    public class Buff {
 
     }
-    class Book {
+    public class Book {
 
     }
-    class Paper {
+    public class Paper {
 
     }
-    class Map {
+    public class Map {
 
     }
 }
