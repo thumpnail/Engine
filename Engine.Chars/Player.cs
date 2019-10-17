@@ -1,11 +1,15 @@
 ﻿using System;
 using Engine;
+using Engine.Inventory;
 
 namespace Engine.Chars {
     public class Player {
-        Inventory.InventoryManager charInventory;
-        public void addInvetory() {
-            charInventory = new Inventory.InventoryManager();
+        public InventoryManager InvManager;
+        public string name;
+        public string hp;
+        public Item equiptedItem;
+        public Player() {
+            
         }
     }
 }

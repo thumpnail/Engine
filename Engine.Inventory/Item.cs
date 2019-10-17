@@ -5,8 +5,6 @@ using System.Text;
 namespace Engine.Inventory {
     
     public class Item {
-        //item type enum list
-
         private int id; //identification
         private string name; //name of te item
         private int value; //"mehrwehrt"(ger)
@@ -107,15 +105,19 @@ namespace Engine.Inventory {
             this.map = map;
         }
 
+        //returns the name
         public string GetName() {
             return name;
         }
+        //returns the item ID
         public int GetID() {
             return id;
         }
+        //returns the item value... importent for stores
         public int GetValue() {
             return value;
         }
+        //returns the item type
         public Enums.itemTypeList GetItemType() {
             if (itemType == Enums.itemTypeList.book) {
                 return Enums.itemTypeList.book;
@@ -160,6 +162,7 @@ namespace Engine.Inventory {
                 return 0;
             }
         }
+        //returns a buff or returns null
         public Buff GetBuff() {
             if (itemType == Enums.itemTypeList.stone) {
                 return buff;
@@ -167,6 +170,7 @@ namespace Engine.Inventory {
                 return null;
             }
         }
+        //returns the book
         public Book GetBook() {
             if (itemType == Enums.itemTypeList.book) {
                 return book;
@@ -174,6 +178,7 @@ namespace Engine.Inventory {
                 return null;
             }
         }
+        //returns the paper
         public Paper GetPaper() {
             if (itemType == Enums.itemTypeList.paper) {
                 return paper;
@@ -181,12 +186,15 @@ namespace Engine.Inventory {
                 return null;
             }
         }
+        //returns the content
         public string GetContent() {
             return content;
         }
+        //returns the map
         public Map GetMap() {
             return map;
         }
+        //returns the effect of the item
         public Effect GetEffect() {
             return effect;
         }

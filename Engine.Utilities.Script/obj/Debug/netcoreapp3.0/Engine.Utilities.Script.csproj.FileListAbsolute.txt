@@ -1,0 +1,4 @@
+D:\Moritz2000\Documents\GitHub\Engine\Engine.Utilities.Script\bin\Debug\netcoreapp3.0\Engine.Utilities.Script.deps.json
+D:\Moritz2000\Documents\GitHub\Engine\Engine.Utilities.Script\bin\Debug\netcoreapp3.0\Engine.Utilities.Script.dll
+D:\Moritz2000\Documents\GitHub\Engine\Engine.Utilities.Script\obj\Debug\netcoreapp3.0\Engine.Utilities.Script.AssemblyInfoInputs.cache
+D:\Moritz2000\Documents\GitHub\Engine\Engine.Utilities.Script\obj\Debug\netcoreapp3.0\Engine.Utilities.Script.AssemblyInfo.cs

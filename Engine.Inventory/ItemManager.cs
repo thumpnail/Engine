@@ -54,7 +54,9 @@ namespace Engine.Inventory {
         public static void AddMapItemToItemList(int id, string name, int value, Map map) {
             ItemList.Add(new Item(id, name, value, map));
         }
+        
     }
+    //is added to chars
     public class InventoryManager {
         public List<Item> Inventory = new List<Item>();
         private int invetorySize; //is 0 when invenntory can be any size
