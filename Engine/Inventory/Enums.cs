@@ -12,7 +12,8 @@ public static class Enums{
             book = 7,
             paper = 8,
             poison = 9,
-            map = 10
+            map = 10,
+            wearable = 11
         }
     public enum itemEffectList {
         

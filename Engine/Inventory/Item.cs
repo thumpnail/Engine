@@ -5,9 +5,9 @@ using System.Text;
 namespace Engine.Inventory {
     
     public class Item {
-        private int id; //identification
+        private string id; //identification
         private string name; //name of te item
-        private int value; //"mehrwehrt"(ger)
+        private int value; //"mehrwehrt"(ger) intresting for shops
         private Enums.itemTypeList itemType; //just types
         private int damage;//damage of poison or weapons... if item type not a weapon or poison or what ever, should be empty or it doesnt matter
         private int durability;//how many times this item could be used(goes down by any use) is if 0 its infinit
@@ -16,19 +16,20 @@ namespace Engine.Inventory {
         private Paper paper;//paper with story on it
         private string content;//story related
         private Map map; //Contains a map... for what ever reason
-        private Effect effect; //Effects for drinks and talismans
+        private Effect effect; //Effects for drinks, wearables and talismans
+        private int armor; //only wearables
         //crafting?
         //functions?
 
         //Standard
-        public Item(int id, string name, int value) {
+        public Item(string id, string name, int value) {
             itemType = Enums.itemTypeList.standard;
             this.id = id;
             this.name = name;
             this.value = value;
         }
         //Weapon
-        public Item(int id, string name, int value, int damage, int durability) {
+        public Item(string id, string name, int value, int damage, int durability) {
             itemType = Enums.itemTypeList.weapon;
             this.id = id;
             this.name = name;
@@ -37,7 +38,7 @@ namespace Engine.Inventory {
             this.durability = durability;
         }
         //Drink
-        public Item(int id, string name, int value, int durability, Effect effect) {
+        public Item(string id, string name, int value, int durability, Effect effect) {
             itemType = Enums.itemTypeList.drink;
             this.id = id;
             this.name = name;
@@ -46,7 +47,7 @@ namespace Engine.Inventory {
             this.effect = effect;
         }
         //Talisman
-        public Item(int id, string name, int value, int durability, Buff buff) {
+        public Item(string id, string name, int value, int durability, Buff buff) {
             itemType = Enums.itemTypeList.talisman;
             this.id = id;
             this.name = name;
@@ -55,7 +56,7 @@ namespace Engine.Inventory {
             this.buff = buff;
         }
         //Stone
-        public Item(int id, string name, int value, Buff buff) {
+        public Item(string id, string name, int value, Buff buff) {
             itemType = Enums.itemTypeList.stone;
             this.id = id;
             this.name = name;
@@ -63,7 +64,7 @@ namespace Engine.Inventory {
             this.buff = buff;
         }
         //StoryRelated
-        public Item(int id, string name, int value, string content) {
+        public Item(string id, string name, int value, string content) {
             itemType = Enums.itemTypeList.storyRelated;
             this.id = id;
             this.name = name;
@@ -71,7 +72,7 @@ namespace Engine.Inventory {
             this.content = content;
         }
         //Book
-        public Item(int id, string name, int value, Book book) {
+        public Item(string id, string name, int value, Book book) {
             itemType = Enums.itemTypeList.book;
             this.id = id;
             this.name = name;
@@ -79,7 +80,7 @@ namespace Engine.Inventory {
             this.book = book;
         }
         //Paper
-        public Item(int id, string name, int value, Paper paper) {
+        public Item(string id, string name, int value, Paper paper) {
             itemType = Enums.itemTypeList.paper;
             this.id = id;
             this.name = name;
@@ -87,7 +88,7 @@ namespace Engine.Inventory {
             this.paper = paper;
         }
         //Poison
-        public Item(int id, string name, int value, Effect effect, int durability, int damage) {
+        public Item(string id, string name, int value, Effect effect, int durability, int damage) {
             itemType = Enums.itemTypeList.poison;
             this.id = id;
             this.name = name;
@@ -97,12 +98,20 @@ namespace Engine.Inventory {
             this.damage = damage;
         }
         //Map
-        public Item(int id, string name, int value, Map map) {
+        public Item(string id, string name, int value, Map map) {
             itemType = Enums.itemTypeList.map;
             this.id = id;
             this.name = name;
             this.value = value;
             this.map = map;
+        }
+        public Item(string id, string name, int value, Effect effect, int armor) {
+            itemType = Enums.itemTypeList.wearable;
+            this.id = id;
+            this.name = name;
+            this.value = value;
+            this.effect = effect;
+            this.armor = armor;
         }
 
         //returns the name
@@ -139,6 +148,8 @@ namespace Engine.Inventory {
                 return Enums.itemTypeList.talisman;
             } else if (itemType == Enums.itemTypeList.weapon) {
                 return Enums.itemTypeList.weapon;
+            } else if(itemType == Enums.itemTypeList.wearable) {
+                return Enums.itemTypeList.wearable;
             } else {
                 return Enums.itemTypeList.nothing;
             }
@@ -197,6 +208,9 @@ namespace Engine.Inventory {
         //returns the effect of the item
         public Effect GetEffect() {
             return effect;
+        }
+        public int getArmor() {
+            return armor;
         }
     }
 }
