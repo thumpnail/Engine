@@ -1,35 +1,18 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using Engine.Inventory;
 
 namespace Engine.Economic {
     public class _Store {
-        private string storeName;
-        private string storeID;
-        private int storeMoney;
+        public InventoryManager inventory = new InventoryManager();
+        public string storeName { get; set; }
+        public string storeID { get; set; }
+        public int storeMoney { get; set; }
 
         public _Store(string storeName, string storeID) {
             this.storeName = storeName;
             this.storeID = storeID;
-        }
-        //getter and setter
-        public void setStoreName(string name) {
-
-        }
-        public string getStoreName() {
-            return storeName;
-        }
-        public void setStoreID(string ID) {
-            this.storeID = ID;
-        }
-        public string getStoreID() {
-            return storeID;
-        }
-        public void setStoreMoney(int money) {
-            this.storeMoney = money;
-        }
-        public int getStoreMoney() {
-            return storeMoney;
         }
         //----------------------------------------------
 

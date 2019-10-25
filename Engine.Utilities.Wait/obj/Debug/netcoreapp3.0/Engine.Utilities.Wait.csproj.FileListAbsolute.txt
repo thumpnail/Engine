@@ -1,7 +1,0 @@
-/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Wait/bin/Debug/netcoreapp3.0/Engine.Utilities.Wait.deps.json
-/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Wait/bin/Debug/netcoreapp3.0/Engine.Utilities.Wait.dll
-/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Wait/bin/Debug/netcoreapp3.0/Engine.Utilities.Wait.pdb
-/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Wait/obj/Debug/netcoreapp3.0/Engine.Utilities.Wait.AssemblyInfoInputs.cache
-/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Wait/obj/Debug/netcoreapp3.0/Engine.Utilities.Wait.AssemblyInfo.cs
-/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Wait/obj/Debug/netcoreapp3.0/Engine.Utilities.Wait.dll
-/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Wait/obj/Debug/netcoreapp3.0/Engine.Utilities.Wait.pdb

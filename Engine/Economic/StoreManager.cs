@@ -15,8 +15,8 @@ namespace Engine.Economic {
         public static _Store GetStoreWithName(string name) {
             try {
                 for (int i = 0; i < _Stores.Count; i++) {
-                    if (_Stores[i].getStoreName().Equals(name)) {
-
+                    if (_Stores[i].storeName.Equals(name)) {
+                        return _Stores[i];
                     }
                     
                 }

@@ -1,16 +1,20 @@
 ﻿<Properties StartupConfiguration="{9F0476B9-EF00-48FC-990C-AD9B3C60E35B}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Engine.Inventory/ItemManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Engine/Entities/Player.cs">
     <Files>
-      <File FileName="Engine.Inventory/ItemManager.cs" Line="42" Column="10" />
-      <File FileName="Engine.Inventory/Item.cs" Line="188" Column="24" />
-      <File FileName="Engine.Inventory/Enums.cs" Line="1" Column="9" />
-      <File FileName="Engine.Chars/Player.cs" Line="3" Column="1" />
+      <File FileName="Engine/Entities/Player.cs" Line="60" Column="105" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ENGINE" expanded="True">
-            <Node name="Engine.Chars" expanded="True" />
+            <Node name="BaseGame" expanded="True" />
+            <Node name="Engine" expanded="True">
+              <Node name="Economic" expanded="True" />
+              <Node name="Entities" expanded="True">
+                <Node name="Player.cs" selected="True" />
+              </Node>
+              <Node name="Inventory" expanded="True" />
+            </Node>
           </Node>
         </State>
       </Pad>

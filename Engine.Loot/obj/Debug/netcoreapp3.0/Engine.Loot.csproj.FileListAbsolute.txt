@@ -1,7 +1,0 @@
-/home/moritz/Dokumente/repos/Engine/Engine.Loot/bin/Debug/netcoreapp3.0/Engine.Loot.deps.json
-/home/moritz/Dokumente/repos/Engine/Engine.Loot/bin/Debug/netcoreapp3.0/Engine.Loot.dll
-/home/moritz/Dokumente/repos/Engine/Engine.Loot/bin/Debug/netcoreapp3.0/Engine.Loot.pdb
-/home/moritz/Dokumente/repos/Engine/Engine.Loot/obj/Debug/netcoreapp3.0/Engine.Loot.AssemblyInfoInputs.cache
-/home/moritz/Dokumente/repos/Engine/Engine.Loot/obj/Debug/netcoreapp3.0/Engine.Loot.AssemblyInfo.cs
-/home/moritz/Dokumente/repos/Engine/Engine.Loot/obj/Debug/netcoreapp3.0/Engine.Loot.dll
-/home/moritz/Dokumente/repos/Engine/Engine.Loot/obj/Debug/netcoreapp3.0/Engine.Loot.pdb

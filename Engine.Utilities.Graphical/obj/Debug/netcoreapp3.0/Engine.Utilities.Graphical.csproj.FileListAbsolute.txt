@@ -1,7 +1,0 @@
-/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Graphical/bin/Debug/netcoreapp3.0/Engine.Utilities.Graphical.deps.json
-/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Graphical/bin/Debug/netcoreapp3.0/Engine.Utilities.Graphical.dll
-/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Graphical/bin/Debug/netcoreapp3.0/Engine.Utilities.Graphical.pdb
-/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Graphical/obj/Debug/netcoreapp3.0/Engine.Utilities.Graphical.AssemblyInfoInputs.cache
-/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Graphical/obj/Debug/netcoreapp3.0/Engine.Utilities.Graphical.AssemblyInfo.cs
-/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Graphical/obj/Debug/netcoreapp3.0/Engine.Utilities.Graphical.dll
-/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Graphical/obj/Debug/netcoreapp3.0/Engine.Utilities.Graphical.pdb

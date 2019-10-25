@@ -1,8 +1,0 @@
-/home/moritz/Dokumente/repos/Engine/Engine.GamePlay/bin/Debug/netcoreapp3.0/Engine.GamePlay.deps.json
-/home/moritz/Dokumente/repos/Engine/Engine.GamePlay/bin/Debug/netcoreapp3.0/Engine.GamePlay.dll
-/home/moritz/Dokumente/repos/Engine/Engine.GamePlay/bin/Debug/netcoreapp3.0/Engine.GamePlay.pdb
-/home/moritz/Dokumente/repos/Engine/Engine.GamePlay/obj/Debug/netcoreapp3.0/Engine.GamePlay.csprojAssemblyReference.cache
-/home/moritz/Dokumente/repos/Engine/Engine.GamePlay/obj/Debug/netcoreapp3.0/Engine.GamePlay.AssemblyInfoInputs.cache
-/home/moritz/Dokumente/repos/Engine/Engine.GamePlay/obj/Debug/netcoreapp3.0/Engine.GamePlay.AssemblyInfo.cs
-/home/moritz/Dokumente/repos/Engine/Engine.GamePlay/obj/Debug/netcoreapp3.0/Engine.GamePlay.dll
-/home/moritz/Dokumente/repos/Engine/Engine.GamePlay/obj/Debug/netcoreapp3.0/Engine.GamePlay.pdb

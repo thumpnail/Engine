@@ -119,7 +119,7 @@ namespace Engine.Inventory {
             return name;
         }
         //returns the item ID
-        public int GetID() {
+        public string GetID() {
             return id;
         }
         //returns the item value... importent for stores

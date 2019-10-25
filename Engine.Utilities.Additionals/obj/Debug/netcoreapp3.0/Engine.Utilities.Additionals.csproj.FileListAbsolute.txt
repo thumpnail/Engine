@@ -1,8 +1,0 @@
-/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Additionals/bin/Debug/netcoreapp3.0/Engine.Utilities.Additionals.deps.json
-/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Additionals/bin/Debug/netcoreapp3.0/Engine.Utilities.Additionals.dll
-/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Additionals/bin/Debug/netcoreapp3.0/Engine.Utilities.Additionals.pdb
-/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Additionals/obj/Debug/netcoreapp3.0/Engine.Utilities.Additionals.csprojAssemblyReference.cache
-/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Additionals/obj/Debug/netcoreapp3.0/Engine.Utilities.Additionals.AssemblyInfoInputs.cache
-/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Additionals/obj/Debug/netcoreapp3.0/Engine.Utilities.Additionals.AssemblyInfo.cs
-/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Additionals/obj/Debug/netcoreapp3.0/Engine.Utilities.Additionals.dll
-/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Additionals/obj/Debug/netcoreapp3.0/Engine.Utilities.Additionals.pdb

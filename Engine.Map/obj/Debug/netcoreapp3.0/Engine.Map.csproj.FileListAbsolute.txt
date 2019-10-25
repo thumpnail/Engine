@@ -1,8 +1,0 @@
-/home/moritz/Dokumente/repos/Engine/Engine.Map/bin/Debug/netcoreapp3.0/Engine.Map.deps.json
-/home/moritz/Dokumente/repos/Engine/Engine.Map/bin/Debug/netcoreapp3.0/Engine.Map.dll
-/home/moritz/Dokumente/repos/Engine/Engine.Map/bin/Debug/netcoreapp3.0/Engine.Map.pdb
-/home/moritz/Dokumente/repos/Engine/Engine.Map/obj/Debug/netcoreapp3.0/Engine.Map.csprojAssemblyReference.cache
-/home/moritz/Dokumente/repos/Engine/Engine.Map/obj/Debug/netcoreapp3.0/Engine.Map.AssemblyInfoInputs.cache
-/home/moritz/Dokumente/repos/Engine/Engine.Map/obj/Debug/netcoreapp3.0/Engine.Map.AssemblyInfo.cs
-/home/moritz/Dokumente/repos/Engine/Engine.Map/obj/Debug/netcoreapp3.0/Engine.Map.dll
-/home/moritz/Dokumente/repos/Engine/Engine.Map/obj/Debug/netcoreapp3.0/Engine.Map.pdb

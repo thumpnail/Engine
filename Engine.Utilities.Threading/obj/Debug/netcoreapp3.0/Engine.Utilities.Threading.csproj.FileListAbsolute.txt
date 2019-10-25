@@ -1,7 +1,0 @@
-/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Threading/bin/Debug/netcoreapp3.0/Engine.Utilities.Threading.deps.json
-/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Threading/bin/Debug/netcoreapp3.0/Engine.Utilities.Threading.dll
-/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Threading/bin/Debug/netcoreapp3.0/Engine.Utilities.Threading.pdb
-/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Threading/obj/Debug/netcoreapp3.0/Engine.Utilities.Threading.AssemblyInfoInputs.cache
-/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Threading/obj/Debug/netcoreapp3.0/Engine.Utilities.Threading.AssemblyInfo.cs
-/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Threading/obj/Debug/netcoreapp3.0/Engine.Utilities.Threading.dll
-/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Threading/obj/Debug/netcoreapp3.0/Engine.Utilities.Threading.pdb

@@ -1,7 +1,0 @@
-/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Logger/bin/Debug/netcoreapp3.0/Engine.Utilities.Logger.deps.json
-/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Logger/bin/Debug/netcoreapp3.0/Engine.Utilities.Logger.dll
-/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Logger/bin/Debug/netcoreapp3.0/Engine.Utilities.Logger.pdb
-/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Logger/obj/Debug/netcoreapp3.0/Engine.Utilities.Logger.AssemblyInfoInputs.cache
-/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Logger/obj/Debug/netcoreapp3.0/Engine.Utilities.Logger.AssemblyInfo.cs
-/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Logger/obj/Debug/netcoreapp3.0/Engine.Utilities.Logger.dll
-/home/moritz/Dokumente/repos/Engine/Engine.Utilities.Logger/obj/Debug/netcoreapp3.0/Engine.Utilities.Logger.pdb

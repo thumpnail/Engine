@@ -3,11 +3,12 @@ using System.Collections.Generic;
 
 namespace Engine.Inventory
 {
+    //is housing the inventory. if something needs a inventory: add  this one.
     public class InventoryManager {
         public List<Item> Inventory = new List<Item>();
-        private int invetorySize; //is 0 when invenntory can be any size
-        private bool hasNoLimit;
-        private string ownerName;
+        public int invetorySize { get; set; } //is 0 when invenntory can be any size
+        public bool hasNoLimit { get; set; }
+        public string ownerName { get; set; }
 
         public InventoryManager() {
             this.invetorySize = 0;
@@ -18,6 +19,4 @@ namespace Engine.Inventory
             this.hasNoLimit = false;
         }
     }
-}
-
 }
