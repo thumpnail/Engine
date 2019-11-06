@@ -6,6 +6,7 @@ using System.Numerics;
 
 namespace Engine.Entities {
     public class Player {
+        public string ID { get; }
         public Vector2 position { get; set; }
         public InventoryManager InvManager { get; set; }
         public string name { get; set; }

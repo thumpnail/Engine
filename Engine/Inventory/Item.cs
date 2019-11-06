@@ -5,7 +5,7 @@ using System.Text;
 namespace Engine.Inventory {
     
     public class Item {
-        private string id; //identification
+        private string ID; //identification
         private string name; //name of te item
         private int value; //"mehrwehrt"(ger) intresting for shops
         private Enums.itemTypeList itemType; //just types
@@ -24,14 +24,14 @@ namespace Engine.Inventory {
         //Standard
         public Item(string id, string name, int value) {
             itemType = Enums.itemTypeList.standard;
-            this.id = id;
+            this.ID = id;
             this.name = name;
             this.value = value;
         }
         //Weapon
         public Item(string id, string name, int value, int damage, int durability) {
             itemType = Enums.itemTypeList.weapon;
-            this.id = id;
+            this.ID = id;
             this.name = name;
             this.value = value;
             this.damage = damage;
@@ -40,7 +40,7 @@ namespace Engine.Inventory {
         //Drink
         public Item(string id, string name, int value, int durability, Effect effect) {
             itemType = Enums.itemTypeList.drink;
-            this.id = id;
+            this.ID = id;
             this.name = name;
             this.value = value;
             this.durability = durability;
@@ -49,7 +49,7 @@ namespace Engine.Inventory {
         //Talisman
         public Item(string id, string name, int value, int durability, Buff buff) {
             itemType = Enums.itemTypeList.talisman;
-            this.id = id;
+            this.ID = id;
             this.name = name;
             this.value = value;
             this.durability = durability;
@@ -58,7 +58,7 @@ namespace Engine.Inventory {
         //Stone
         public Item(string id, string name, int value, Buff buff) {
             itemType = Enums.itemTypeList.stone;
-            this.id = id;
+            this.ID = id;
             this.name = name;
             this.value = value;
             this.buff = buff;
@@ -66,7 +66,7 @@ namespace Engine.Inventory {
         //StoryRelated
         public Item(string id, string name, int value, string content) {
             itemType = Enums.itemTypeList.storyRelated;
-            this.id = id;
+            this.ID = id;
             this.name = name;
             this.value = value;
             this.content = content;
@@ -74,7 +74,7 @@ namespace Engine.Inventory {
         //Book
         public Item(string id, string name, int value, Book book) {
             itemType = Enums.itemTypeList.book;
-            this.id = id;
+            this.ID = id;
             this.name = name;
             this.value = value;
             this.book = book;
@@ -82,7 +82,7 @@ namespace Engine.Inventory {
         //Paper
         public Item(string id, string name, int value, Paper paper) {
             itemType = Enums.itemTypeList.paper;
-            this.id = id;
+            this.ID = id;
             this.name = name;
             this.value = value;
             this.paper = paper;
@@ -90,7 +90,7 @@ namespace Engine.Inventory {
         //Poison
         public Item(string id, string name, int value, Effect effect, int durability, int damage) {
             itemType = Enums.itemTypeList.poison;
-            this.id = id;
+            this.ID = id;
             this.name = name;
             this.value = value;
             this.durability = durability;
@@ -100,14 +100,14 @@ namespace Engine.Inventory {
         //Map
         public Item(string id, string name, int value, Map map) {
             itemType = Enums.itemTypeList.map;
-            this.id = id;
+            this.ID = id;
             this.name = name;
             this.value = value;
             this.map = map;
         }
         public Item(string id, string name, int value, Effect effect, int armor) {
             itemType = Enums.itemTypeList.wearable;
-            this.id = id;
+            this.ID = id;
             this.name = name;
             this.value = value;
             this.effect = effect;
@@ -120,7 +120,7 @@ namespace Engine.Inventory {
         }
         //returns the item ID
         public string GetID() {
-            return id;
+            return ID;
         }
         //returns the item value... importent for stores
         public int GetValue() {

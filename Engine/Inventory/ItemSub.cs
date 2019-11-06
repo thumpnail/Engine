@@ -16,7 +16,10 @@ namespace Engine.Inventory {
         }
     }
     public class Buff {
-
+        public string ID { get; }
+        public string name { get; }
+        public int value { get; }
+        public string description { get; }
     }
     public class Book {
 
