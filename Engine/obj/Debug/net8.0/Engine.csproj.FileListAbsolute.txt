@@ -1,0 +1,13 @@
+C:\Users\fenex\Documents\GitHub\Engine\Engine\bin\Debug\net8.0\Engine.deps.json
+C:\Users\fenex\Documents\GitHub\Engine\Engine\bin\Debug\net8.0\Engine.dll
+C:\Users\fenex\Documents\GitHub\Engine\Engine\bin\Debug\net8.0\Engine.pdb
+C:\Users\fenex\Documents\GitHub\Engine\Engine\obj\Debug\net8.0\Engine.csproj.AssemblyReference.cache
+C:\Users\fenex\Documents\GitHub\Engine\Engine\obj\Debug\net8.0\Engine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fenex\Documents\GitHub\Engine\Engine\obj\Debug\net8.0\Engine.AssemblyInfoInputs.cache
+C:\Users\fenex\Documents\GitHub\Engine\Engine\obj\Debug\net8.0\Engine.AssemblyInfo.cs
+C:\Users\fenex\Documents\GitHub\Engine\Engine\obj\Debug\net8.0\Engine.csproj.CoreCompileInputs.cache
+C:\Users\fenex\Documents\GitHub\Engine\Engine\obj\Debug\net8.0\Engine.sourcelink.json
+C:\Users\fenex\Documents\GitHub\Engine\Engine\obj\Debug\net8.0\Engine.dll
+C:\Users\fenex\Documents\GitHub\Engine\Engine\obj\Debug\net8.0\refint\Engine.dll
+C:\Users\fenex\Documents\GitHub\Engine\Engine\obj\Debug\net8.0\Engine.pdb
+C:\Users\fenex\Documents\GitHub\Engine\Engine\obj\Debug\net8.0\ref\Engine.dll

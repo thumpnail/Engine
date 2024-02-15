@@ -1,32 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/home/moritz/Dokumente/repos/Engine/Engine/Engine.csproj": {}
+    "C:\\Users\\fenex\\Documents\\GitHub\\Engine\\Engine\\Engine.csproj": {}
   },
   "projects": {
-    "/home/moritz/Dokumente/repos/Engine/Engine/Engine.csproj": {
+    "C:\\Users\\fenex\\Documents\\GitHub\\Engine\\Engine\\Engine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/moritz/Dokumente/repos/Engine/Engine/Engine.csproj",
+        "projectUniqueName": "C:\\Users\\fenex\\Documents\\GitHub\\Engine\\Engine\\Engine.csproj",
         "projectName": "Engine",
-        "projectPath": "/home/moritz/Dokumente/repos/Engine/Engine/Engine.csproj",
-        "packagesPath": "/home/moritz/.nuget/packages/",
-        "outputPath": "/home/moritz/Dokumente/repos/Engine/Engine/obj/",
+        "projectPath": "C:\\Users\\fenex\\Documents\\GitHub\\Engine\\Engine\\Engine.csproj",
+        "packagesPath": "C:\\Users\\fenex\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fenex\\Documents\\GitHub\\Engine\\Engine\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/home/moritz/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\fenex\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -37,14 +35,38 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Silk.NET.Input": {
+              "target": "Package",
+              "version": "[2.20.0, )"
+            },
+            "Silk.NET.Maths": {
+              "target": "Package",
+              "version": "[2.20.0, )"
+            },
+            "Silk.NET.OpenGL": {
+              "target": "Package",
+              "version": "[2.20.0, )"
+            },
+            "Silk.NET.OpenGL.Extensions.ImGui": {
+              "target": "Package",
+              "version": "[2.20.0, )"
+            },
+            "Silk.NET.Windowing": {
+              "target": "Package",
+              "version": "[2.20.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -53,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

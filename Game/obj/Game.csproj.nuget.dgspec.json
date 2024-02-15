@@ -1,36 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Game\\Game.csproj": {}
+    "C:\\Users\\fenex\\Documents\\GitHub\\Engine\\Game\\Game.csproj": {}
   },
   "projects": {
-    "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine\\Engine.csproj": {
+    "C:\\Users\\fenex\\Documents\\GitHub\\Engine\\Engine\\Engine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine\\Engine.csproj",
+        "projectUniqueName": "C:\\Users\\fenex\\Documents\\GitHub\\Engine\\Engine\\Engine.csproj",
         "projectName": "Engine",
-        "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine\\Engine.csproj",
-        "packagesPath": "C:\\Users\\fried\\.nuget\\packages\\",
-        "outputPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine\\obj\\",
+        "projectPath": "C:\\Users\\fenex\\Documents\\GitHub\\Engine\\Engine\\Engine.csproj",
+        "packagesPath": "C:\\Users\\fenex\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fenex\\Documents\\GitHub\\Engine\\Engine\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "X:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\fried\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\fenex\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -41,14 +35,38 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Silk.NET.Input": {
+              "target": "Package",
+              "version": "[2.20.0, )"
+            },
+            "Silk.NET.Maths": {
+              "target": "Package",
+              "version": "[2.20.0, )"
+            },
+            "Silk.NET.OpenGL": {
+              "target": "Package",
+              "version": "[2.20.0, )"
+            },
+            "Silk.NET.OpenGL.Extensions.ImGui": {
+              "target": "Package",
+              "version": "[2.20.0, )"
+            },
+            "Silk.NET.Windowing": {
+              "target": "Package",
+              "version": "[2.20.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -57,40 +75,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Game\\Game.csproj": {
+    "C:\\Users\\fenex\\Documents\\GitHub\\Engine\\Game\\Game.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Game\\Game.csproj",
+        "projectUniqueName": "C:\\Users\\fenex\\Documents\\GitHub\\Engine\\Game\\Game.csproj",
         "projectName": "Game",
-        "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Game\\Game.csproj",
-        "packagesPath": "C:\\Users\\fried\\.nuget\\packages\\",
-        "outputPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Game\\obj\\",
+        "projectPath": "C:\\Users\\fenex\\Documents\\GitHub\\Engine\\Game\\Game.csproj",
+        "packagesPath": "C:\\Users\\fenex\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fenex\\Documents\\GitHub\\Engine\\Game\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "X:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\fried\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\fenex\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine\\Engine.csproj": {
-                "projectPath": "D:\\Moritz2000\\Documents\\GitHub\\ENGINE\\Engine\\Engine.csproj"
+              "C:\\Users\\fenex\\Documents\\GitHub\\Engine\\Engine\\Engine.csproj": {
+                "projectPath": "C:\\Users\\fenex\\Documents\\GitHub\\Engine\\Engine\\Engine.csproj"
               }
             }
           }
@@ -102,14 +114,16 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -118,7 +132,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,15 +1,21 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>12</LangVersion>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Story\" />
-    <Folder Include="Chars\" />
-    <Folder Include="Game\" />
-    <Folder Include="Gameplay\" />
-    <Folder Include="Loot\" />
-    <Folder Include="Map\" />
+    <Folder Include="Core\" />
+    <Folder Include="Render\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Silk.NET.Input" Version="2.20.0" />
+    <PackageReference Include="Silk.NET.Maths" Version="2.20.0" />
+    <PackageReference Include="Silk.NET.OpenGL" Version="2.20.0" />
+    <PackageReference Include="Silk.NET.OpenGL.Extensions.ImGui" Version="2.20.0" />
+    <PackageReference Include="Silk.NET.Windowing" Version="2.20.0" />
   </ItemGroup>
 </Project>

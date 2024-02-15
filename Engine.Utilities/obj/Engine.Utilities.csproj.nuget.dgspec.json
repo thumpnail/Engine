@@ -1,32 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/home/moritz/Dokumente/repos/Engine/Engine.Utilities/Engine.Utilities.csproj": {}
+    "C:\\Users\\fenex\\Documents\\GitHub\\Engine\\Engine.Utilities\\Engine.Utilities.csproj": {}
   },
   "projects": {
-    "/home/moritz/Dokumente/repos/Engine/Engine.Utilities/Engine.Utilities.csproj": {
+    "C:\\Users\\fenex\\Documents\\GitHub\\Engine\\Engine.Utilities\\Engine.Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/moritz/Dokumente/repos/Engine/Engine.Utilities/Engine.Utilities.csproj",
+        "projectUniqueName": "C:\\Users\\fenex\\Documents\\GitHub\\Engine\\Engine.Utilities\\Engine.Utilities.csproj",
         "projectName": "Engine.Utilities",
-        "projectPath": "/home/moritz/Dokumente/repos/Engine/Engine.Utilities/Engine.Utilities.csproj",
-        "packagesPath": "/home/moritz/.nuget/packages/",
-        "outputPath": "/home/moritz/Dokumente/repos/Engine/Engine.Utilities/obj/",
+        "projectPath": "C:\\Users\\fenex\\Documents\\GitHub\\Engine\\Engine.Utilities\\Engine.Utilities.csproj",
+        "packagesPath": "C:\\Users\\fenex\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\fenex\\Documents\\GitHub\\Engine\\Engine.Utilities\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/home/moritz/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\fenex\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp2.2"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
             "projectReferences": {}
           }
         },
@@ -37,23 +35,28 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

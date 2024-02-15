@@ -1,13 +1,4 @@
-﻿using System;
-using Engine;
 
-namespace BaseGame {
-    class Program {
-        //needs the 'Engine' to work
-        static void Main(string[] args) {
-            Console.WriteLine("Test is running");
-            
-            Console.Read();
-        }
-    }
-}
+var game = new Engine.Engine();
+Console.WriteLine("Hello From Game!");
+game.Run();
