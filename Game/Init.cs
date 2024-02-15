@@ -1,0 +1,1 @@
+var game = new Engine.Engine("Game", new(800,600));

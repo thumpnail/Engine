@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Attributes\" />
     <Folder Include="Core\" />
-    <Folder Include="Render\" />
   </ItemGroup>
 
   <ItemGroup>

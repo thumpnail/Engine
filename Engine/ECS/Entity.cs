@@ -21,7 +21,7 @@ public class Entity {
         this.name = name;
         id = new();
     }
-    public Entity(string name, params GameComponent[] components) : this(name) {
+    public Entity(string name, params AGameComponent[] components) : this(name) {
         //this.components = components.ToList();
     }
     public static Entity empty => new();
